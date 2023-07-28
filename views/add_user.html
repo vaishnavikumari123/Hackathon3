@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Quotes</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        
+            <div class="container">
+                <nav>
+                   <div>
+                    <a href="/" class="nav-brand" style="font-weight: 700;">Great Quotes </a>
+                    <ul>
+                        <li><a href="/">All Quotes</a></li>
+                        <li><a href="/add-user">New Quotes</a></li>
+                     </ul>
+            
+                   </div>
+                </nav>
+            </div>        
+        
+    </header>
+    <!-- Header -->
+
+    <!-- Main site -->
+    <main id="site-main">
+        <div class="container"  >
+            <div >
+                <h2 class="text-dark" style="margin-bottom: 25px;">Add your Quotes</h2>
+            </div>
+            
+                <form  method="post" id="update_user">
+                    <div class="new_user">
+                        <h3>Author Name</h3>
+                        <div class="form-group">
+                            <label for="Name"></label>
+                            <input type="hidden" name="id" value="">
+                            <input type="text" name="name" value="" placeholder="Author Name">
+                           
+                        </div>
+                        <h3>Write your Quote</h3>
+                        <div class="form-group">
+                            <label for="Quotes"></label>
+                            
+                           <textarea name="hidden"  cols="100" rows="12"></textarea>
+                           
+                        </div>
+                        <div><button style="width: 80px; height: 40px; background:  rgb(50, 17, 82); color: #fff;  font-weight: 500;">Submit</button></div>
+                    </div>
+    
+                </form>
+            
+            
+    </main>
+    <!-- Main site -->
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!-- include header -->
+<%- include('include/_header')%>
+<!-- include header -->
+
+
+    <!-- Main site -->
+    <main id="site-main">
+        <div class="container"  >
+            <div >
+                <h2 class="text-dark" style="margin-bottom: 25px;">Quotes</h2>
+            </div>
+            <div>
+                <form  method="post" id="update_user">
+                    <div class="new_user">
+                        <h3>Author Name</h3>
+                        <div class="form-group">
+                            <label for="Name"></label>
+                            <input type="hidden" name="id" value="">
+                            <input type="text" name="name" value="" placeholder="Author Name">
+                           
+                        </div>
+                        <h3>Write your Quote</h3>
+                        <div class="form-group">
+                            <label for="Quotes"></label>
+                            
+                           <textarea name="hidden"  cols="100" rows="12"></textarea>
+                           
+                        </div>
+                        <div><button style="width: 80px; height: 40px; background:  rgb(50, 17, 82); color: #fff;  font-weight: 500;">Submit</button></div>
+                    </div>
+                
+                </form>
+            </div>
+           
+        </div>
+            
+    </main>
+    <!-- Main site -->
+
+<!-- include footer -->
+<%- include('include/_footer')%>
+<!-- include footer -->
